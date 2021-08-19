@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+/* Header Section's CSS */
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f7fd;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.header-image {
+  width: 30%;
+}
+/* This part is navigaion bar */
+.nav-section {
+  width: 70%;
+  align-items: center;
+}
+
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  font-weight: bolder;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 40px;
+  width: 50%;
+  margin-left: 0%;
+}
+ul.nav-bar li a:hover {
+  background-color: lightblue;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+ul.nav-bar li a {
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar li {
+  padding-left: 50px;
+  justify-content: space-around;
+}
+
+/* Navigation bar end */
+.logo {
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 35px;
+  width: 150px;
+  margin-left: 50%;
+}
+/* Get Started Button */
+.nav-bar li:last-child a {
+  background-color: #43b97f;
+  padding: 20px 30px;
+  border-radius: 6px;
+}
+
+.nav-bar li:first-child a {
+  color: red;
+}
+/* Header Section End */
+
+/* Hero Section Start */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f6fd;
+}
+.column1 {
+  width: 50%;
+  margin-left: 4%;
+}
+
+.column2 {
+  width: 50%;
+  /* margin-right: 2%; */
+  padding-right: 1%;
+  /* background-color: #efedfd; */
+}
+.column1 h4 {
+  padding: 5% 6% 5% 0%;
+  font-size: 24px;
+  color: #5c666d;
+}
+.column1 h1 {
+  font-size: 120px;
+  font-weight: 900;
+  color: #212841;
+  line-height: 37px;
+  padding: 8% 5% 5% 0%;
+}
+.other-color {
+  color: #ff511a;
+}
+.innerHero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0%;
+}
+.contact {
+  height: 60px;
+  text-decoration: none;
+  width: 300px;
+  font-size: 26px;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color: #43b97f;
+  border-radius: 5px;
+}
